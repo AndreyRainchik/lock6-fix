@@ -1,0 +1,61 @@
+{
+  "customerRecords": {
+    "name": "customerRecords",
+    "connector": "memory"
+  },
+  "creditCardRecords": {
+    "name": "creditCardRecords",
+    "connector": "memory"
+  },
+  "rewardsProgramRecords": {
+    "name": "rewardsProgramRecords",
+    "connector": "memory"
+  },
+  "videosRecords": {
+    "name": "videosRecords",
+    "connector": "rest",
+    "debug": true,
+    "options": {
+      "headers": {
+        "accept": "application/json",
+        "content-type": "application/json",
+        "token": "aeybc ciwyg eywqg"
+      },
+      "strictSSL": true
+    },
+    "operations": [
+      {
+        "template": {
+          "method": "GET",
+          "url": "https://ibm-vault-api.mybluemix.net/videos"
+        },
+        "functions": {
+          "find": []
+        }
+      }
+    ]
+  },
+  "voiceMailsRecords": {
+    "name": "voiceMailsRecords",
+    "connector": "rest",
+    "debug": true,
+    "options": {
+      "headers": {
+        "accept": "application/json",
+        "content-type": "application/json",
+      },
+      "strictSSL": true
+    },
+    "operations": [
+      {
+        "template": {
+          "method": "GET",
+          "url": "https://ibm-vault-api.mybluemix.net/voiceMails"
+        },
+        "functions": {
+          "find": []
+        }
+      }
+    ]
+  }
+}

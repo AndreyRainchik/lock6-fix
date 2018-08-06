@@ -1,0 +1,34 @@
+{
+  "name": "Rewards",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check"
+  },
+  "dependencies": {
+    "compression": "1.7.0",
+    "cors": "2.8.1",
+    "helmet": "3.9.00",
+    "loopback": "3.4.0",
+    "loopback-boot": "2.23.0",
+    "loopback-component-explorer": "5.2.0",
+    "serve-favicon": "2.4.3",
+    "strong-error-handler": "1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "4.16.0",
+    "eslint-config-loopback": "^8.0.0",
+    "nsp": "^2.1.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "(Apache-2.0)",
+  "description": "Rewards"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Rewards",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "customers": {
+      "type": "hasMany",
+      "model": "Customer",
+      "foreignKey": "programId",
+      "through": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
