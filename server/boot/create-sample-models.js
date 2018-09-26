@@ -33,8 +33,8 @@ module.exports = function (app) {
      {AccountNumber: 2, Points: 1000, AccountType: 'Silver'},
      {AccountNumber: 3, Points: 10000, AccountType: 'Platinum'},
      {AccountNumber: 4, Points: 20000, AccountType: 'Platinum'},
-     {AccountNumber: 5, Points: 10000, AccountType: 'Platnium'},
-     {AccountNumber: 6, Points: 30000, AccountType: 'Platnium'}
+     {AccountNumber: 5, Points: 10000, AccountType: 'Platinum'},
+     {AccountNumber: 6, Points: 30000, AccountType: 'Platinum'}
   ]
 
 

@@ -26,4 +26,7 @@ module.exports = function (app) {
     */
     console.log('Available videos:', JSON.stringify(result));
   });
+  app.models.Voicemails.find({}, function(err, result) {
+    console.log('Available voicemails:', JSON.stringify(result));
+  });
 }

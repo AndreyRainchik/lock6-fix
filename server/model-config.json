@@ -35,5 +35,16 @@
         }
       }
     }
+  },
+  "Voicemails": {
+    "dataSource": "voiceMailsRecords",
+    "public": true,
+    "options": {
+      "remoting": {
+        "sharedMethods": {
+	  "*": true
+	}
+      }
+    }
   }
 }

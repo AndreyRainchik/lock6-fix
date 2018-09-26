@@ -19,7 +19,7 @@
       "headers": {
         "accept": "application/json",
         "content-type": "application/json",
-        "token": "aeybc ciwyg eywqg"
+        "token": "super secrt token"
       },
       "strictSSL": true
     },
@@ -43,6 +43,7 @@
       "headers": {
         "accept": "application/json",
         "content-type": "application/json",
+	"token" : "super secrt token"
       },
       "strictSSL": true
     },
